@@ -34,7 +34,7 @@ public class LoginPageTest {
 	@BeforeMethod
 	public void startBrowserSession() throws Exception {
 		try {
-			System.out.println("Start The Browser Session after test execution");
+			System.out.println("Start The Browser Session before test execution");
 
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + File.separator
 					+ "chromedriver_win32" + File.separator + "chromedriver.exe");
