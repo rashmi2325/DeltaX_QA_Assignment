@@ -88,8 +88,8 @@ public class LoginPageTest {
 	 */
 	@DataProvider
 	public Object[][] LoginTestData() throws Exception {
-		Object[][] testObjArray = new ExcelReader().readTestDataFromExcel(testDataFile, "Sheet1");
-		return (testObjArray);
+		Object[][] loginTestData = new ExcelReader().readTestDataFromExcel(testDataFile, "Sheet1");
+		return (loginTestData);
 
 	}
 
